@@ -670,6 +670,14 @@ ol.poolball-list {
     #smallh {
         display: none;
     }
+    .gr {
+        width: calc(100% - 10px);
+        height: 200px;
+        padding: 5px;
+        margin: 5px;
+        line-height: 200px;
+        float: left;
+    }
 }
 
 
@@ -692,6 +700,14 @@ ol.poolball-list {
     }
     .centerli2 {
         width: 80.66667%;
+    }
+    .gr {
+        width: calc(50% - 10px);
+        height: 200px;
+        padding: 5px;
+        margin: 5px;
+        line-height: 200px;
+        float: left;
     }
 }
 
