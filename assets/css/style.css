@@ -221,6 +221,7 @@ input {
 /* HEADER SECTION */
 
 #h {
+    background-color: #298ee8;
     background: url(../img/header.jpg) no-repeat center top;
     padding-top: 180px;
     text-align: center;
