@@ -464,6 +464,7 @@ ul {
 #header {
     background: #27a6d6;
     height: 60px;
+    padding: 0px 10px;
     font-size: 18px;
     color: #fff;
     line-height: 60px;
@@ -510,6 +511,10 @@ ul {
     margin: 5px;
     line-height: 200px;
     float: left;
+}
+
+#header a {
+    color: #fff !important;
 }
 
 .gr img {
