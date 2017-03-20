@@ -661,6 +661,14 @@ ol.poolball-list {
     .centerli2 {
         width: 90.66667%;
     }
+    .gr {
+        width: calc(100% - 10px) !important;
+        height: 200px;
+        padding: 5px;
+        margin: 5px;
+        line-height: 200px;
+        float: left;
+    }
 }
 
 
@@ -669,14 +677,6 @@ ol.poolball-list {
 @media only screen and (min-width: 480px) {
     #smallh {
         display: none;
-    }
-    .gr {
-        width: calc(100% - 10px);
-        height: 200px;
-        padding: 5px;
-        margin: 5px;
-        line-height: 200px;
-        float: left;
     }
 }
 
@@ -792,8 +792,4 @@ ol.poolball-list {
     font-style: normal;
     font-weight: normal;
     src: local('Lato TR Bold'), url('LatoTR-Bold.woff') format('woff');
-}
-
-);
-
 }
