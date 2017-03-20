@@ -40,10 +40,10 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2 centered">
           <h1>Farkındalığını göster, #OtizmİçinMavi giy.</h1>
-          <h3><b>Otizm Farkındalık Ayı olan Nisan boyunca bize katılın,<br/>#OtizmİçinMavi giyin, sosyal medyada paylaşın,<br/>hem farkındalığı arttırın, hem de çekildiğiniz fotoğraf sitemizde yayınlansın.</b>
+          <h3><b>Otizm Farkındalık Ayı olan Nisan boyunca bize katılın,<br/>#OtizmİçinMavi giyin, sosyal medyada paylaşın,<br/>hem farkındalığı artırın, hem de çekildiğiniz fotoğraf sitemizde yayınlansın.</b>
           </h3>
           <div class="mtb">
-            <button class='btn btn-conf btn-primary btn-blue' type="submit">DESTEK OLMAK İSTİYORUM</button>
+            <a href="#jump"><button class='btn btn-conf btn-primary btn-blue' type="submit">DESTEK OLMAK İSTİYORUM</button></a>
           </div>
           <!--/mt-->
           <div class="scroll-downs">
@@ -120,23 +120,25 @@
             <div class="carousel-inner">
               <div class="item active">
                 <!--<img style="margin: auto;height: 100px;" src="./assets/img/team/gianni.png">-->
-                <h3 style="margin-top: 10px;"><b>#OtizmİçinMavi</b> sadece farkındalığı göstermek için değil, aynı zamanda Otizmi daha çok kişiye anlatmak için mükemmel bir yol.</h3>
+                <h3 style="margin-top: 10px;"><b>#OtizmİçinMavi</b> sadece farkındalığı göstermek için değil, aynı zamanda Otizmi daha çok kişiye anlatmak
+                  için mükemmel bir yol.</h3>
                 <h5>
-                  <tgr>BATUHAN ÇEVİK<br/>
-                  TEDx</tgr>
+                  <tgr>BATUHAN ÇEVİK<br/> TEDx
+                  </tgr>
                 </h5>
               </div>
               <div class="item">
                 <!--<img style="margin: auto;height: 100px;" src="./assets/img/team/gianni.png">-->
-                <h3>Her 68 çocuktan 1'i otizmli. Onların sesi olmak için mavi giyiyorum. Otizm farkındalığını dünyaya yayıyorum. <b>#OtizmİcinMavi</b></h3>
+                <h3>Her 68 çocuktan 1'i otizmli. Onların sesi olmak için mavi giyiyorum. Otizm farkındalığını dünyaya yayıyorum.
+                  <b>#OtizmİcinMavi</b></h3>
                 <h5>
-                  <tgr>MEHRU AYGÜL<br/>
-                  Girişimcilik Vakfı</tgr>
+                  <tgr>MEHRU AYGÜL<br/> Girişimcilik Vakfı</tgr>
                 </h5>
               </div>
               <div class="item">
                 <!--<img style="margin: auto;height: 100px;" src="./assets/img/team/gianni.png">-->
-                <h3>Bir baba olarak her çocuğun hakkını savunmam gerektiğini biliyorum. Otizmli çocuklar tek ihtiyaçları olan eğitime ulaşamıyorlar. Bu nedenle, <b>#OtizmİcinMavi</b> giyiyorum.</h3>
+                <h3>Bir baba olarak her çocuğun hakkını savunmam gerektiğini biliyorum. Otizmli çocuklar tek ihtiyaçları olan
+                  eğitime ulaşamıyorlar. Bu nedenle, <b>#OtizmİcinMavi</b> giyiyorum.</h3>
                 <h5>
                   <tgr>ATA UZUNHASAN<br/>Galata İş Melekleri</tgr>
                 </h5>
@@ -161,7 +163,7 @@
   </div>
   <!--/green-->
 
-  <div class="container ptb">
+  <div class="container ptb" id="jump">
     <div class="row centered">
       <h2 class="mb"><b>#OtizmİçinMavi Giy</b><br/>Farkındalığı Artırmamıza Yardım Et.</h2>
       <div class="col-md-4">
@@ -241,7 +243,7 @@
             otizmli insanların birçoğu toplum tarafından farklı gözle bakılmaktadır.</br>
             </br>
             Bu kampanyanın amacı, Otizm Spektrum Bozuklukları hakkında insanların doğru bilgiler edinmesini sağlamak, ve bu farkındalığı
-            bütün Türkiye’de arttırarak otizmli bireylerin diğer insanlardan çok da farklı olmadığını göstermektir.</br>
+            bütün Türkiye’de artırarak otizmli bireylerin diğer insanlardan çok da farklı olmadığını göstermektir.</br>
             </br>
             Yapmanız gereken tek şey ise, #OtizmİçinMavi bir tişört giyip, fotoğrafınızı sosyal medyada paylaşmak. Renkli Düşünün, Mavi
             Giyinin, Farkındalığınızı Gösterin.</h4>
@@ -294,7 +296,7 @@
     <div class="container">
       <div class="row centered">
         <h2 style="margin-top: 0px;">Mavi Tişörtün Yok Mu?</h2>
-        <img style="max-height: 200px; width: 100%; max-width: 800px;" src="./assets/img/ribon.png"><br/>
+        <img style="max-height: 200px; width: 100%; max-width: 730px;" src="./assets/img/ribon.png"><br/>
         <h3>Facebook profil fotoğrafını otizmi simgeleyen mavi puzzlelarla doldur.</h3>
         <h4><b>Farkındalığı yay.</b></h4>
         <div style="margin: auto;text-align: center; margin-top: 15px;">
@@ -330,6 +332,22 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/retina-1.1.0.js"></script>
 </body>
