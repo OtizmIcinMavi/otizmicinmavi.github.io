@@ -31,7 +31,12 @@ body {
     color: #5a5a5a;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Lato TR', sans-serif;
     font-weight: 300;
 }
@@ -48,7 +53,8 @@ p {
     margin-top: 10px;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -115,7 +121,9 @@ html, body {
     background: #2B2E31;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -135,7 +143,8 @@ a {
     color: #1abc9c;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     text-decoration: none;
     color: #696E74;
 }
@@ -669,6 +678,9 @@ ol.poolball-list {
         line-height: 200px;
         float: left;
     }
+    #green {
+        min-height: 370px;
+    }
 }
 
 
@@ -677,6 +689,10 @@ ol.poolball-list {
 @media only screen and (min-width: 480px) {
     #smallh {
         display: none;
+    }
+    #green {
+        min-height: 330px;
+        max-height: 330px;
     }
 }
 
