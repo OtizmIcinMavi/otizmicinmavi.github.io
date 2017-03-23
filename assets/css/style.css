@@ -724,6 +724,15 @@ ol.poolball-list {
         line-height: 200px;
         float: left;
     }
+    .gr-carrier {
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        width: calc(100% - 10px);
+        float: left;
+        margin: 5px;
+        height: 300px;
+    }
     #green {
         min-height: 370px;
     }
@@ -770,7 +779,7 @@ ol.poolball-list {
         width: 80.66667%;
     }
     .gr {
-        width: calc(50% - 10px);
+        width: calc(100% - 10px);
         height: 200px;
         padding: 5px;
         margin: 5px;
