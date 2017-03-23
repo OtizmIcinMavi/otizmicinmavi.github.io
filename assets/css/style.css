@@ -724,16 +724,14 @@ ol.poolball-list {
         line-height: 200px;
         float: left;
     }
-<<<<<<< HEAD
     #green {
         min-height: 370px;
-=======
+    }
     .iwanttoattend {
         width: 100%;
         border-radius: 0px;
         bottom: 50px;
         left: 0px;
->>>>>>> 71ae0c7d961ed3cdcae5082eaa863e9eafcd0be6
     }
 }
 
